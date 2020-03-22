@@ -1,0 +1,93 @@
+body{
+    font-family: 'PT Serif', serif;
+}
+.color-pallet{
+    color: #f8f1f1;
+    color: #d2c8c8;
+    color: #a3816a;
+    color: #0a065d;
+}
+.navbar-brand{
+    font-family: 'PT Serif', serif;
+    font-size: 1.5rem;
+}
+#tittle{
+    background-color: #f8f1f1;
+    text-align: center;
+    padding: 9.5% 15%;
+}
+.tittle-heading{
+    position: relative;
+    top: 23px;
+    line-height: 1.5;
+    font-size: 3rem;
+    border-style: solid none;
+    border-width: thick;
+}
+.carousel-slides{
+    width: 75%;
+    height: 75%;
+    border-style: solid;
+    border-width: thick;
+}
+#depoimentos{
+    background-color: #d2c8c8;
+    text-align: center;
+    padding: 7% 15% 4%;
+}
+.depoimentos-header{
+    font-size: 2rem;
+    line-height: 1.5;
+    border-style: none none solid;
+    border-width: medium;
+}
+.depoimento-temp{
+    padding: 20px;
+}
+.buba-img{
+    width: 12%;
+    border-radius: 100%;
+}
+.buba-p{
+    display: inline-block;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #0a065d;
+}
+#regras{
+    background-color: #f8f1f1;
+    text-align: center;
+    padding: 7% 15% 4%;
+}
+.regras-header{
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+}
+h1.regras-header{
+    border-style: none none solid;
+    border-width: medium;
+}
+#entrar{
+    background-color: #d2c8c8;
+    text-align: center;
+    padding: 7% 15% 3.5%;
+}
+.btn-entrar{
+    margin: 2%;
+}
+#footer{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #363636;
+    text-align: center;
+    padding: 15px 0 1px;
+    color: white;
+}
+.carousel{
+    vertical-align: center;
+}
+@media (max-width:995px){
+    .carousel{
+        margin-top: 100px;
+    }
+}
